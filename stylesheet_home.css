@@ -32,15 +32,16 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(img_assets/jpn_pin_kbgr.jpg);
+  padding: 200px 0 200px 0;
+  background-image: url(img_assets/jpn-jmbtron.jpeg);
+  background-color: darksalmon;
   background-size: cover;
   color: rgb(0, 0, 0);
   text-align: center;
 }
 
 .top-wrapper h1 {
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
@@ -128,7 +129,124 @@ header {
 
 /* Add CSS for menu-icon */
 
+/* CSS for photos slider*/
+/* .photo-slider {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+} */
 
+/* .carousel-container {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.navigation-buttons .previous {
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 10px;
+  font-weight: 700;
+}
+
+.navigation-buttons .next {
+  right: 10px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
+}
+
+.navigation-buttons .nav-btn {
+  background: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navigation .nav-btn:hover {
+  background: white;
+}
+
+.slider-carousel {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+
+}
+.slider-carousel img {
+  width: 100%;
+  transition: all 0.3s ease;
+  border:8px solid white;
+}
+
+.images {
+  position: absolute;
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0;
+  width: 103%;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.3);
+  height: 35px;
+} */
+
+/* styles.css */
+.slider {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  padding: 10px 20px;
+  background-color: rgb(203, 93, 99);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+
+/* lesson wrapper CSS */
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -153,16 +271,20 @@ header {
   width: 25%;
 }
 
-.lesson-icon {
+.lesson img{
   position: relative;
+  width: 100px;
+  padding: 10px;
 }
 
-.lesson-icon p {
+/* .lesson-icon p {
   position: absolute;
   top: 44%;
-  width: 100%;
-  color: white;
-}
+  right: 0;
+  width: 50px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+} */
 
 .text-contents {
   width: 80%;
